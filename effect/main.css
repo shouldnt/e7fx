@@ -1,0 +1,124 @@
+.wrap-box {
+	width: 100vw;
+	height: 100vh;
+	background: #040e19;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #040e19, #071510);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #040e19, #071510); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: auto;
+
+}
+.object-wrap {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	perspective: 1000px;
+}
+.boject-wrap.p-1 {
+	top: 30%;
+	left: 10%;
+}
+
+.object-wrap.p-2 {
+	top: 10%;
+	left: 70%;
+}
+.object-wrap.p-3 {
+	top: 40%;
+	left: 30%;
+}
+.object-wrap.p-4 {
+	top: 70%;
+	left: 10%;
+}
+.object-wrap.p-5 {
+	top: 60%;
+	left: 80%;
+}
+.object {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: #200122;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+.effect-wrap {
+	transform-style: preserve-3d;
+}
+
+.z-1 {
+	z-index: 10;
+}
+.z-2 {
+	z-index: 20;
+}
+.z-3 {
+	z-index: 30;
+}
+.z-4 {
+	z-index: 40;
+}
+.z-5 {
+	z-index: 50;
+}
+.z-6 {
+	z-index: 60;
+}
+
+
+/*position object*/
+.object-wrap.line-1 {
+	top: 46%;
+	left: 35%;
+}
+.object-wrap.line-2 {
+	top: 36%;
+	left: 44%;
+}
+.object-wrap.line-3 {
+	top: 54%;
+	left: 43%;
+}
+.object-wrap.line-4 {
+	top: 43%;
+	left: 63%;
+}
+.object-wrap.line-5 {
+	top: 53%;
+	left: 61%;
+}
+
+.object-wrap.bubble-1 {
+	top: 46%;
+	left: 52%;
+}
+.object-wrap.bubble-2 {
+	top: 60%;
+	left: 43%;
+}
+
+.object-wrap.circle {
+	top: 46%;
+}
+
+.object-wrap.arrow-1 {
+	top: 28%;
+	left: 40%;
+}
+.object-wrap.arrow-2 {
+	top: 70%;
+	left: 68%;
+}
+
+.object-wrap.bubble-3 {
+	opacity: 0;
+}
+.object-wrap.bubble-4 {
+	opacity: 0;
+}
+
+.object-wrap.bubble-5 {
+	opacity: 0;
+}
