@@ -22,7 +22,7 @@ let Ob = function(elNode, {direction, radius}) {
 	this.origin = {x: 0, y: 0, z: 0};
 	this.rotation = {x: 30, y: 25, z: 0}
 	this.speed = 0x3f;
-	this.radius = radius || 75;
+	this.radius = radius || 33;
 	this.direction = direction || 1;
 	this.el = elNode;
 }
